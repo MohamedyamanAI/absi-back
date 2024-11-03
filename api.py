@@ -11,6 +11,10 @@ CORS(app, expose_headers=['X-JSON-Response'])
 client = Groq(api_key="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")
 model = 'llama3-groq-70b-8192-tool-use-preview'
 
+@app.route('/test', methods=['GET'])
+def test():
+    return jsonify({"message": "API is working!"})
+
 @app.route('/transcribe', methods=['POST'])
 def transcribe():
     if 'audio' not in request.files:

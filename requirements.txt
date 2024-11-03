@@ -1,0 +1,5 @@
+groq>=0.3.2
+pygame>=2.5.2
+pydub>=0.25.1
+gTTS>=2.5.1
+icecream>=2.1.3

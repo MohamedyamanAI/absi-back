@@ -1,4 +1,4 @@
-from tools import Quran_recite, Quran_recite_tool, record_audio_tool, manage_recordings_tool
+from src.tools import Quran_recite, Quran_recite_tool, record_audio_tool, manage_recordings_tool
 from icecream import ic
 import json 
 
